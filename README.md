@@ -1,33 +1,13 @@
-# Promptfoo prompt evaluation
+# lab_8_llm_testing
 
-## Quick start
+## Версії середовища
 
-1. Set your API key (if using a cloud provider):
+| Компонент | Версія |
+|-----------|--------|
+| Docker | 29.9.3 (build 5457199) |
+| Node.js | v24.16.0 |
+| Git | 2.55.0.windows.5 |
+| Ollama (образ) | ollama/ollama:0.40.16 |
+| Модель | qwen3:0.6b |
+| promptfoo | 0.121.17 |
 
-```bash
-export OPENAI_API_KEY=sk-...
-# Or for other providers:
-# export ANTHROPIC_API_KEY=sk-ant-...
-# export GOOGLE_API_KEY=...
-```
-
-2. Edit `promptfooconfig.yaml` to customize prompts, providers, and test cases.
-
-3. Run the evaluation:
-
-```bash
-promptfoo eval
-```
-
-4. View results in your browser:
-
-```bash
-promptfoo view
-```
-
-## Learn more
-
-- Configuration guide: https://promptfoo.dev/docs/configuration/guide
-- All providers: https://promptfoo.dev/docs/providers
-- Assertions & metrics: https://promptfoo.dev/docs/configuration/expected-outputs
-- Examples: https://github.com/promptfoo/promptfoo/tree/main/examples
